@@ -4,7 +4,7 @@
 
 FROM maven:3.8-jdk-11 AS build
 
-# WORKDIR /project
+WORKDIR /project
 
 COPY ./webapp/ /project
 
